@@ -14,3 +14,4 @@ This guide will help you create a custom addon in Odoo that adds an extra dropdo
 
 ### 3. Define the Module Structure
 - Inside your module directory, create the following structure:
+```custom_equipment_dropdown/ ├── init.py ├── manifest.py ├── models/ │ ├── init.py │ └── equipment.py └── views/ └── equipment_view.xml```

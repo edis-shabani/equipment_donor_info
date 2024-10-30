@@ -28,9 +28,8 @@ equipment_donor_info/
         └── icon.png
 ```
 
-
 ### 4. Edit `__manifest__.py`
-- This file contains the module's metadata. Here’s an example:
+- This file contains the module's metadata.
 ```python
 {
     'name': 'Equipment Donor Info',
@@ -48,4 +47,19 @@ equipment_donor_info/
 }
 ```
 
+### 5. Define the Model in `equipment.py`
+- This file will define the new field in the equipment model.
+```python
+from odoo import models, fields
+
+class MaintenanceEquipment(models.Model):
+    _inherit = 'maintenance.equipment'
+
+    donor = fields.Selection([
+        ('mcc', 'MCC'),
+        ('pepfar', 'PEPFAR'),
+        ('icap', 'ICAP'),
+        ('vamed', 'VAMED')
+    ], string="Donor")
+```
 

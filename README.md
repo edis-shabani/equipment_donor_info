@@ -91,3 +91,8 @@ from . import equipment
 - Install the **Equipment Donor Info** module from the Apps menu.
 
 ![apps](https://i.imgur.com/uxpQQ9A.png)
+
+### References
+ - [Odoo Documentation: Creating Your First Module](https://www.odoo.com/documentation/18.0/administration/odoo_sh/getting_started/first_module.html)
+ - [YouTube Tutorial by Cybrosys Technologies](https://www.youtube.com/watch?v=eqpmeOrOSgI)
+ - [YouTube Tutorial by Odoo Discussions(https://www.youtube.com/watch?v=Ecb20z64IQg)

@@ -86,5 +86,6 @@ from . import equipment
 ### 7. Add the appropriate icon in the `static/description` directory
 
 ### 8. Install the Module
-- Update the app list in Odoo.
-- Install your custom module from the Apps menu.
+- Restart your Odoo server to recognize the new module.
+- Update the app list in Odoo by navigating to the Apps menu and clicking on “Update Apps List”.
+- Install the **Equipment Donor Info** module from the Apps menu.

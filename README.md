@@ -83,4 +83,8 @@ from . import equipment
     </record>
 </odoo>
 ```
+### 7. Add the appropriate icon in the `static/description` directory
 
+### 8. Install the Module
+- Update the app list in Odoo.
+- Install your custom module from the Apps menu.

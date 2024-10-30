@@ -67,7 +67,7 @@ class MaintenanceEquipment(models.Model):
 from . import equipment
 ```
 
-### 6. Create the View in equipment_view.xml
+### 6. Create the View in `equipment_view.xml`
 - This file will modify the equipment form view to include the new dropdown field.
 ```xml
 <odoo>

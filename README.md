@@ -2,6 +2,8 @@
 
 This guide will help you create a custom addon in Odoo that adds an extra dropdown field in the equipment view of the maintenance module.
 
+![Dropdown Field](https://i.imgur.com/rhVWQGc.png)
+
 ## Step-by-Step Guide
 
 ### 1. Set Up Your Development Environment
@@ -95,4 +97,4 @@ from . import equipment
 ### References
  - [Odoo Documentation: Creating Your First Module](https://www.odoo.com/documentation/18.0/administration/odoo_sh/getting_started/first_module.html)
  - [YouTube Tutorial by Cybrosys Technologies](https://www.youtube.com/watch?v=eqpmeOrOSgI)
- - [YouTube Tutorial by Odoo Discussions(https://www.youtube.com/watch?v=Ecb20z64IQg)
+ - [YouTube Tutorial by Odoo Discussions](https://www.youtube.com/watch?v=Ecb20z64IQg)

@@ -30,8 +30,12 @@ equipment_donor_info/
         └── icon.png
 ```
 
-### 4. Edit `__manifest__.py`
-- This file contains the module's metadata.
+### 4. Edit `__init__.py` and `__manifest__.py`
+- `__init__.py` consists of a single line:
+```python
+from . import models
+```
+- `__manifest__.py` contains the module's metadata.
 ```python
 {
     'name': 'Equipment Donor Info',

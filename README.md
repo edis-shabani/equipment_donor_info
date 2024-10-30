@@ -67,4 +67,20 @@ class MaintenanceEquipment(models.Model):
 from . import equipment
 ```
 
+### 6. Create the View in equipment_view.xml
+- This file will modify the equipment form view to include the new dropdown field.
+```xml
+<odoo>
+    <record id="view_equipment_form_inherit" model="ir.ui.view">
+        <field name="name">maintenance.equipment.form.inherit</field>
+        <field name="model">maintenance.equipment</field>
+        <field name="inherit_id" ref="maintenance.view_equipment_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='name']" position="after">
+                <field name="custom_dropdown"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>
+```
 

@@ -62,4 +62,9 @@ class MaintenanceEquipment(models.Model):
         ('vamed', 'VAMED')
     ], string="Donor")
 ```
+- Ensure your `__init__.py` file in the models directory imports the `equipment.py` file:
+```python
+from . import equipment
+```
+
 

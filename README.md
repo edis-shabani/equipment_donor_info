@@ -53,7 +53,7 @@ from . import models
 }
 ```
 
-### 5. Define the Model in `equipment.py`
+### 5. Define the Model in `models/equipment.py`
 - This file will define the new field in the equipment model.
 ```python
 from odoo import models, fields
@@ -73,7 +73,7 @@ class MaintenanceEquipment(models.Model):
 from . import equipment
 ```
 
-### 6. Create the View in `equipment_view.xml`
+### 6. Create the View in `views/equipment_views.xml`
 - This file will modify the equipment form view to include the new dropdown field.
 ```xml
 <odoo>

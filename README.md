@@ -74,10 +74,10 @@ from . import equipment
     <record id="view_equipment_form_inherit" model="ir.ui.view">
         <field name="name">maintenance.equipment.form.inherit</field>
         <field name="model">maintenance.equipment</field>
-        <field name="inherit_id" ref="maintenance.view_equipment_form"/>
+        <field name="inherit_id" ref="maintenance.hr_equipment_view_form"/>
         <field name="arch" type="xml">
-            <xpath expr="//field[@name='name']" position="after">
-                <field name="custom_dropdown"/>
+            <xpath expr="//field[@name='location']" position="after">
+                <field name="donor"/>
             </xpath>
         </field>
     </record>

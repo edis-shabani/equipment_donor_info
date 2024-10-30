@@ -96,5 +96,5 @@ from . import equipment
 
 ### References
  - [Odoo Documentation: Creating Your First Module](https://www.odoo.com/documentation/18.0/administration/odoo_sh/getting_started/first_module.html)
- - [YouTube Tutorial by Cybrosys Technologies](https://www.youtube.com/watch?v=eqpmeOrOSgI)
+ - [How to Add Custom Fields to Existing Views in Odoo 16 by Cybrosys Technologies](https://www.cybrosys.com/blog/how-to-add-custom-fields-to-existing-views-in-odoo-16)
  - [YouTube Tutorial by Odoo Discussions](https://www.youtube.com/watch?v=Ecb20z64IQg)
